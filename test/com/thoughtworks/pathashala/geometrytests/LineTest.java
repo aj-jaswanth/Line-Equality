@@ -53,4 +53,13 @@ public class LineTest {
 
         Assert.assertThat(actual, is(false));
     }
+
+    @Test
+    public void equalityOfLineAndOtherObject() {
+        Line firstLine = new Line(3, 3, 3, 3);
+
+        boolean actual = firstLine.equals("OtherString");
+
+        Assert.assertThat(actual, is(false));
+    }
 }

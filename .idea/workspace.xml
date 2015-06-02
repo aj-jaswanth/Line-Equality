@@ -38,8 +38,8 @@
       <file leaf-file-name="LineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/pathashala/geometrytests/LineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85276073">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5828221">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,33 +212,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1171" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RunManager" selected="JUnit.LineTest.equalityOfLineAndNothing">
-    <configuration default="false" name="LineTest.lineOfLengthZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.pathashala.geometrytests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Line Equality" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.pathashala.geometrytests" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.pathashala.geometrytests.LineTest" />
-      <option name="METHOD_NAME" value="lineOfLengthZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LineTest.equalityOfLineAndOtherObject">
     <configuration default="false" name="LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -330,6 +304,32 @@
       <option name="PACKAGE_NAME" value="com.thoughtworks.pathashala.geometrytests" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.pathashala.geometrytests.LineTest" />
       <option name="METHOD_NAME" value="equalityOfLineAndNothing" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LineTest.equalityOfLineAndOtherObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.pathashala.geometrytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Line Equality" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.pathashala.geometrytests" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.pathashala.geometrytests.LineTest" />
+      <option name="METHOD_NAME" value="equalityOfLineAndOtherObject" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -590,19 +590,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LineTest.lineOfLengthZero" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LineTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LineTest.lengthOfLineNotHavingUnitLength" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLinesOriginatingAndEndingAtSamePoint" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndNothing" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LineTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LineTest.lengthOfLineNotHavingUnitLength" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLinesOriginatingAndEndingAtSamePoint" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndNothing" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndOtherObject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndNothing" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LineTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLinesOriginatingAndEndingAtSamePoint" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LineTest.lengthOfLineNotHavingUnitLength" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LineTest.lineOfLengthZero" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndOtherObject" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLineAndNothing" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LineTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LineTest.equalityOfLinesOriginatingAndEndingAtSamePoint" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LineTest.lengthOfLineNotHavingUnitLength" />
       </list>
     </recent_temporary>
   </component>
@@ -616,12 +616,12 @@
       <created>1433259313742</created>
       <option name="number" value="Default" />
       <updated>1433259313742</updated>
-      <workItem from="1433259315119" duration="4164000" />
+      <workItem from="1433259315119" duration="4505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4164000" />
+    <option name="totallyTimeSpent" value="4505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="940" extended-state="6" />
@@ -673,7 +673,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20588236" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20588236" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -725,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/pathashala/geometrytests/LineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85276073">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.5828221">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
