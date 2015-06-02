@@ -11,8 +11,8 @@ public class Line {
     }
 
     public double length() {
-        double length1 = Math.pow(startX - startY, 2);
-        double length2 = Math.pow(endX - endY, 2);
+        double length1 = Math.pow(startX - endX, 2);
+        double length2 = Math.pow(startY - endY, 2);
         return Math.sqrt(length1 + length2);
     }
 }

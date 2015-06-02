@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 public class LineTest {
 
     @Test
-    public void lineOfLengthZero() {
+    public void lengthOfLineHavingZeroLength() {
         Line line = new Line(3, 3, 3, 3);
 
         double actual = line.length();
@@ -18,12 +18,20 @@ public class LineTest {
     }
 
     @Test
-    public void lineOfUnitLength() {
+    public void lengthOfLineHavingUnitLength() {
         Line line = new Line(3, 3, 4, 3);
 
         double actual = line.length();
 
         Assert.assertThat(actual, is(1.0));
     }
-    
+
+    @Test
+    public void lengthOfLineNotHavingUnitLength() {
+        Line line = new Line(0, 0, 3, 4);
+
+        double actual = line.length();
+
+        Assert.assertThat(actual, is(5.0));
+    }
 }
