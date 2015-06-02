@@ -34,4 +34,14 @@ public class LineTest {
 
         Assert.assertThat(actual, is(5.0));
     }
+
+    @Test
+    public void equalityOfLinesOriginatingAndEndingAtSamePoint() {
+        Line firstLine = new Line(3, 3, 3, 3);
+        Line secondLine = new Line(3, 3, 3, 3);
+
+        boolean actual = firstLine.equals(secondLine);
+
+        Assert.assertThat(actual, is(true));
+    }
 }

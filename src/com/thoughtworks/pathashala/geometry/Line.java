@@ -15,4 +15,27 @@ public class Line {
         double length2 = Math.pow(startY - endY, 2);
         return Math.sqrt(length1 + length2);
     }
+
+    @Override
+    public boolean equals(Object otherObject) {
+        if (otherObject != null) {
+            if (this.getClass() == otherObject.getClass()) {
+                Line otherLine = (Line) otherObject;
+                boolean areEqual = false;
+                if (startX == otherLine.startX)
+                    if (startY == otherLine.startY)
+                        if (endX == otherLine.endX)
+                            if (endY == otherLine.endY)
+                                areEqual = true;
+                if (areEqual == false)
+                    if (startX == otherLine.endX)
+                        if (startY == otherLine.endY)
+                            if (endX == otherLine.startX)
+                                if (endY == otherLine.startY)
+                                    areEqual = true;
+                return areEqual;
+            }
+        }
+        return false;
+    }
 }
