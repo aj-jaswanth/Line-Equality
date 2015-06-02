@@ -64,10 +64,20 @@ public class LineTest {
     }
 
     @Test
-    public void reflexivePropertyOfLine() {
+    public void reflexivePropertyOfEqualMethod() {
         Line line = new Line(3, 3, 3, 3);
 
         boolean actual = line.equals(line);
+
+        Assert.assertThat(actual, is(true));
+    }
+
+    @Test
+    public void symmetricPropertyOfEqualMethod() {
+        Line firstLine = new Line(3, 3, 3, 3);
+        Line secondLine = new Line(3, 3, 3, 3);
+
+        boolean actual = firstLine.equals(secondLine) == secondLine.equals(firstLine);
 
         Assert.assertThat(actual, is(true));
     }
