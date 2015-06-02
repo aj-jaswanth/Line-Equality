@@ -16,4 +16,14 @@ public class LineTest {
 
         Assert.assertThat(actual, is(0.0));
     }
+
+    @Test
+    public void lineOfUnitLength() {
+        Line line = new Line(3, 3, 4, 3);
+
+        double actual = line.length();
+
+        Assert.assertThat(actual, is(1.0));
+    }
+    
 }
