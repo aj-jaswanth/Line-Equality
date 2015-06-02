@@ -46,6 +46,16 @@ public class LineTest {
     }
 
     @Test
+    public void equalityOfLinesOriginatingAndEndingAtDifferentPoint() {
+        Line firstLine = new Line(-1, -2, 3, 9);
+        Line secondLine = new Line(3, 9, -1, -2);
+
+        boolean actual = firstLine.equals(secondLine);
+
+        Assert.assertThat(actual, is(true));
+    }
+
+    @Test
     public void equalityOfLineAndNothing() {
         Line firstLine = new Line(3, 3, 3, 3);
 
