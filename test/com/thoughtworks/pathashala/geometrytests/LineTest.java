@@ -44,4 +44,13 @@ public class LineTest {
 
         Assert.assertThat(actual, is(true));
     }
+
+    @Test
+    public void equalityOfLineAndNothing() {
+        Line firstLine = new Line(3, 3, 3, 3);
+
+        boolean actual = firstLine.equals(null);
+
+        Assert.assertThat(actual, is(false));
+    }
 }
