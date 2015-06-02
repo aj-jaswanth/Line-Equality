@@ -62,4 +62,13 @@ public class LineTest {
 
         Assert.assertThat(actual, is(false));
     }
+
+    @Test
+    public void reflexivePropertyOfLine() {
+        Line line = new Line(3, 3, 3, 3);
+
+        boolean actual = line.equals(line);
+
+        Assert.assertThat(actual, is(true));
+    }
 }

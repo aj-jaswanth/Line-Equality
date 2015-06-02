@@ -22,20 +22,31 @@ public class Line {
             if (this.getClass() == otherObject.getClass()) {
                 Line otherLine = (Line) otherObject;
                 boolean areEqual = false;
+
                 if (startX == otherLine.startX)
                     if (startY == otherLine.startY)
                         if (endX == otherLine.endX)
                             if (endY == otherLine.endY)
                                 areEqual = true;
+
                 if (areEqual == false)
                     if (startX == otherLine.endX)
                         if (startY == otherLine.endY)
                             if (endX == otherLine.startX)
                                 if (endY == otherLine.startY)
                                     areEqual = true;
+
                 return areEqual;
             }
         }
         return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int hashCode;
+        hashCode = 31 * startX + startY;
+        hashCode += 31 * endX + endY;
+        return hashCode;
     }
 }
