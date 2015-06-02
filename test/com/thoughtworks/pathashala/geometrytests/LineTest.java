@@ -64,7 +64,7 @@ public class LineTest {
     }
 
     @Test
-    public void reflexivePropertyOfEqualMethod() {
+    public void reflexivePropertyOfEqualsMethod() {
         Line line = new Line(3, 3, 3, 3);
 
         boolean actual = line.equals(line);
@@ -73,11 +73,22 @@ public class LineTest {
     }
 
     @Test
-    public void symmetricPropertyOfEqualMethod() {
-        Line firstLine = new Line(3, 3, 3, 3);
-        Line secondLine = new Line(3, 3, 3, 3);
+    public void symmetricPropertyOfEqualsMethod() {
+        Line firstLine = new Line(3, 3, 2, 1);
+        Line secondLine = new Line(3, 3, 2, 1);
 
         boolean actual = firstLine.equals(secondLine) == secondLine.equals(firstLine);
+
+        Assert.assertThat(actual, is(true));
+    }
+
+    @Test
+    public void transitivePropertyOfEqualsMethod() {
+        Line firstLine = new Line(3, 3, 4, 4);
+        Line secondLine = new Line(3, 3, 4, 4);
+        Line thirdLine = new Line(3, 3, 4, 4);
+
+        boolean actual = firstLine.equals(secondLine) && secondLine.equals(thirdLine) && firstLine.equals(thirdLine);
 
         Assert.assertThat(actual, is(true));
     }
