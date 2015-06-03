@@ -1,6 +1,5 @@
-package com.thoughtworks.pathashala.geometrytests;
+package com.thoughtworks.pathashala.geometry;
 
-import com.thoughtworks.pathashala.geometry.Line;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -99,6 +98,16 @@ public class LineTest {
         Line thirdLine = new Line(3, 3, 4, 4);
 
         boolean actual = firstLine.equals(secondLine) && secondLine.equals(thirdLine) && firstLine.equals(thirdLine);
+
+        Assert.assertThat(actual, is(true));
+    }
+
+    @Test
+    public void ifTwoLinesAreEqualThenTheirHashCodesMustBeEqual() {
+        Line firstLine = new Line(3, 3, 4, 4);
+        Line secondLine = new Line(3, 3, 4, 4);
+
+        boolean actual = firstLine.equals(secondLine) && firstLine.hashCode() == secondLine.hashCode();
 
         Assert.assertThat(actual, is(true));
     }
